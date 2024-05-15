@@ -1,0 +1,85 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(21, 4, 37);
+}
+
+.title {
+  text-align: center;
+  color: blanchedalmond;
+}
+
+
+.container-06 {
+  max-width: 540px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-max {
+  max-width: 730px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.button-wraper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 15px 40px;
+  background-color: orange;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn:not(:last-child) {
+  padding: 15px 45px;
+  margin-right: 50px;
+}
+.btn-restart {
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 200px;
+  margin-bottom: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  color: transparent;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: blueviolet;
+  transition: background-color .2s, color .2s, transform .2s;
+}
+
+.card__number-open {
+  background-color: rgb(8, 175, 92);
+  color: rgb(17, 16, 17);
+  transform: scale(0.95);
+}
